@@ -36,3 +36,68 @@
     transform: rotate(360deg);
   }
 }
+
+.button {
+  border-radius: 10px;
+  background-color: #8a0cff;
+  color: white;
+  font-weight: 600;
+  height: 40px;
+  width: 100px;
+}
+.button:hover {
+  background-color: #9e49ee;
+}
+
+.input {
+  background-color: #dadfe0;
+  border-radius: 10px;
+  height: 40px;
+  width: 300px;
+  font-size: 20px;
+}
+.input:focus {
+  background-color: white;
+}
+.header {
+  font-weight: 1000;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background-color: #fafafa;
+}
+
+.table {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .table {
+    width: 100% !important;
+  }
+
+  .input {
+    font-size: 10px;
+    height: 30px;
+    width: auto;
+  }
+  .button {
+    width: auto;
+    height: 30px;
+    font-size: 10px;
+  }
+  .table {
+    font-size: small;
+    max-height: 100vh;
+    overflow: auto;
+  }
+  img {
+    width: 10px;
+  }
+}
